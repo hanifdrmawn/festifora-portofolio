@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #FFF8F0;
+    width: 100%;
+}
+header{
+    height: 72px;
+    width: 100%;
+    background-color: #887C14;
+    position:fixed;
+    z-index: 10;
+    display: flex;
+}
+header logo{
+    color: white;
+    font-family: Ravie;
+    font-size: 16px;
+    float: left;
+    margin: 24px 100px;
+}
+header ul{
+    position: absolute;
+    right: 57px;
+    margin: 24px 0px;
+    float: right;
+    width: 270px;
+    height: 24px;
+    box-sizing: border-box;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: Poppins;
+}
+body ul li{
+    list-style: none;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2px 12px 0px 0px;
+    }
+a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    width: 100%;
+    height: 600px;
+    position: center;
+    margin-bottom: 100px;
+}
+.content{
+    width: 520px;
+    height: 236px;
+    padding: 168px 190px;
+}
+h1{
+    font-family: League Spartan;
+    font-size: 48px;
+    width: 520px;
+    margin-bottom: 8px;
+    z-index: 9;
+}
+h2{
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 8px;
+    z-index: 9;
+}
+.line1{
+    position: absolute;
+    width: 215.9px;
+    height: 28.72px;
+    left: 190px;
+    top: 300px;
+}
+.content p{
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 63px;
+}
+.FotoHome{
+    height: 600px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    z-index: -1;
+}
+.about{
+    position: center;
+    width: 100%;
+    height: 495px;
+    left: 78px;
+    top: 792px;
+}
+.aboutme{
+    font-family: League Spartan;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 20px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 998px;
+    height: 291px;
+}
+.box p{
+    padding: 0px 58.71px;
+    text-align: center;
+}
+
+
+
+
+/* footer{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+}
+footer p{
+    position: relative;
+    font-family: Poppins;
+    color: white;
+    font-size: 12px;
+    padding-left: 19px;
+    bottom: 18px;
+}
+footer ul li{
+    margin-right: 48px;
+    display: inline;
+} */
+
+footer {
+    background-color: black;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer p {
+    color: white;
+}
+footer ul li {
+    display: inline;
+    margin-right: 24px;
+}
