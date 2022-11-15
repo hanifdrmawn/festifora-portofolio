@@ -46,7 +46,7 @@ body ul li{
     font-size: 16px;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 2px 12px 0px 0px;
+    padding: 1px 6px 1px 6px;
     }
 a{
     text-decoration: none;
@@ -99,7 +99,7 @@ a{
     font-size: 36px;
     text-align: center;
     font-weight: bold;
-    padding-top: 5px;
+    margin-top: 5px;
 }
 .box{
     margin-left: 156px;
@@ -167,12 +167,11 @@ a{
 }
 footer {
     background-color: black;
-    padding: 0px 50px;
+    margin: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 100%;
 }
 footer p {
     color: white;
