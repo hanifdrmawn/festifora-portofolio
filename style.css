@@ -55,8 +55,14 @@ a{
 .home{
     width: 100%;
     height: auto;
-    position: center;
     margin-bottom: 150px;
+    display: flex;
+}
+.FotoHome{
+    position: absolute;
+    right: 0;
+    margin-top: 70px;
+    z-index: -1;
 }
 .content{
     width: 520px;
@@ -74,19 +80,13 @@ a{
 }
 .line1{
     position: absolute;
-    left: 190px;
-    top: 300px;
+    margin: 12px 0;
 }
 .content p{
+    padding-top: 12px;
     font-family: Poppins;
     font-size: 18px;
     margin-top: 63px;
-}
-.FotoHome{
-    position: absolute;
-    right: 0;
-    top: 70px;
-    z-index: -1;
 }
 .about{
     position: center;
@@ -124,7 +124,7 @@ a{
     position: absolute;
     z-index: -1;
     left: 50px;
-    top: 850px;
+    top: 930px;
 }
 .skills{
     margin-bottom: 100px;
@@ -174,9 +174,9 @@ footer {
     width: 100%;
 }
 footer p {
-    color: white;
     margin-left: 19px;
     padding-top: 25px;
+    color: white;
 }
 footer ul li {
     display: inline;
