@@ -175,6 +175,8 @@ footer {
 }
 footer p {
     color: white;
+    margin-left: 19px;
+    padding-top: 25px;
 }
 footer ul li {
     display: inline;
