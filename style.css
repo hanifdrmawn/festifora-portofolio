@@ -12,6 +12,7 @@ header{
     width: 100%;
     background-color: #887C14;
     position:fixed;
+    top: 0;
     z-index: 10;
     display: flex;
 }
@@ -27,14 +28,16 @@ header ul{
     right: 57px;
     margin: 24px 0px;
     float: right;
-    width: 270px;
-    height: 24px;
     box-sizing: border-box;
     display: block;
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: Poppins;
+}
+header ul :hover{
+    color: black;
+    text-decoration: underline;
 }
 body ul li{
     list-style: none;
@@ -51,32 +54,26 @@ a{
 }
 .home{
     width: 100%;
-    height: 600px;
+    height: auto;
     position: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .content{
     width: 520px;
-    height: 236px;
     padding: 168px 190px;
 }
-h1{
+.content h1{
     font-family: League Spartan;
     font-size: 48px;
-    width: 520px;
     margin-bottom: 8px;
-    z-index: 9;
 }
-h2{
+.content h2{
     font-family: Inter;
     font-size: 16px;
     margin-top: 8px;
-    z-index: 9;
 }
 .line1{
     position: absolute;
-    width: 215.9px;
-    height: 28.72px;
     left: 190px;
     top: 300px;
 }
@@ -86,7 +83,6 @@ h2{
     margin-top: 63px;
 }
 .FotoHome{
-    height: 600px;
     position: absolute;
     right: 0;
     top: 70px;
@@ -95,11 +91,10 @@ h2{
 .about{
     position: center;
     width: 100%;
-    height: 495px;
-    left: 78px;
-    top: 792px;
+    height: auto;
+    padding-top: 100px;
 }
-.aboutme{
+.about h1{
     font-family: League Spartan;
     font-size: 36px;
     text-align: center;
@@ -107,42 +102,70 @@ h2{
     padding-top: 5px;
 }
 .box{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 156px;
+    margin-right: 156px;
     border-radius: 25px;
     border: 20px solid #FFFFFF;
     background-color: #FFFFFF;
-    width: 998px;
-    height: 291px;
+    width: auto;
+    height: auto;
 }
 .box p{
-    padding: 0px 58.71px;
+    padding: 20px 58.71px;
     text-align: center;
 }
-
-
-
-
-/* footer{
+.bg1a{
+    position: absolute;
+    z-index: -1;
+    right: 50px;
+    top: 750px;
+}
+.bg2a{
+    position: absolute;
+    z-index: -1;
+    left: 50px;
+    top: 850px;
+}
+.skills{
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+.skills h1{
+    font-family: League Spartan;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 62px;
+}
+.skill{
     display: flex;
+    margin: 40px 190px;
+    background: rgba(0, 89, 193, 0.25);
+    border-radius: 16px;
     align-items: center;
-    height: 72px;
-    background-color: black;
-    width: 100%;
-    justify-content: space-between;
+    padding: 20px;
 }
-footer p{
-    position: relative;
-    font-family: Poppins;
-    color: white;
-    font-size: 12px;
-    padding-left: 19px;
-    bottom: 18px;
+.card-pictures{
+    height: 160px;
+    margin: 10px 20px 10px 0px;
 }
-footer ul li{
-    margin-right: 48px;
-    display: inline;
-} */
+.textSkill h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #291854;
+}
+.textSkill p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #55206D;
+}
+
 
 footer {
     background-color: black;
