@@ -53,6 +53,9 @@
     header ul{
         display: none;
     }
+    .box p{
+        padding: 20px 20px;
+    }
     .bg1a{
         top: 1080px;
         right: 0;
