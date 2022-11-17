@@ -51,7 +51,6 @@ a{
 .home{
     width: 100%;
     height: auto;
-    margin-bottom: 150px;
     display: flex;
 }
 .FotoHome{
@@ -94,6 +93,7 @@ a{
     text-align: center;
     font-weight: bold;
     margin-top: 5px;
+    padding-top: 20px;
 }
 .box{
     margin-left: 156px;
