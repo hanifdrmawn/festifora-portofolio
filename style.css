@@ -188,8 +188,7 @@ a{
     display: flex;
     margin-top: 70px;
 }
-
-.buttonbox1{
+.buttonbox1, .buttonbox2{
     display: flex;
     font-size: 16px;
     width: 356px;
@@ -205,26 +204,13 @@ a{
     line-height: 19px;
     color: #2F2F2F;
     position: absolute;
+}
+.buttonbox1{
     background-color: white;
     left: 15%;
     transition: 0.3s;
 }
 .buttonbox2{
-    display: flex;
-    font-size: 16px;
-    width: 356px;
-    height: 44px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2F2F2F;
-    position: absolute;
     background-color: #FFD748;
     right: 15%;
     transition: 0.3s;
