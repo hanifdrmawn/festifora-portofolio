@@ -4,6 +4,12 @@
         padding-bottom: 0;
         padding-top: 120px;
     }
+    .bg1a{
+        top: 700px;
+    }
+    .bg2a{
+        top: 750px;
+    }
 }
 @media all and (max-width: 1000px) {
     .content{
@@ -19,11 +25,11 @@
         margin-right: 40px;
     }
     .bg1a{
-        top: 1080px;
+        top: 980px;
         right: 0;
     }
     .bg2a{
-        top: 1180px;
+        top: 1050px;
         left: 0;
     }
     .buttonbox1{
@@ -48,11 +54,11 @@
         display: none;
     }
     .bg1a{
-        top: 1220px;
+        top: 1080px;
         right: 0;
     }
     .bg2a{
-        top: 1680px;
+        top: 1280px;
         left: 0;
     }
     .skill{
@@ -102,5 +108,8 @@
         display: block;
         background-color: black;
         border-radius: 15px;
+    }
+    .round3{
+        top: 3000px;
     }
 }
