@@ -16,12 +16,9 @@ header{
     z-index: 10;
     display: flex;
 }
-header logo{
-    color: white;
-    font-family: Ravie;
-    font-size: 16px;
-    float: left;
-    margin: 24px 100px;
+.logo img{
+    height: 40px;
+    margin: 16px 30px 16px 30px;
 }
 header ul{
     position: absolute;
