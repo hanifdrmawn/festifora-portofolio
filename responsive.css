@@ -107,7 +107,7 @@
     #btn-navbar:checked ~ ul {
         display: block;
         background-color: black;
-        border-radius: 15px;
+        border-radius: 20px 0 20px 20px;
     }
     .round3{
         top: 3000px;
