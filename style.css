@@ -118,7 +118,7 @@ a{
     position: absolute;
     z-index: -1;
     left: 50px;
-    top: 930px;
+    top: 830px;
 }
 .skills{
     padding-top: 100px;
@@ -221,6 +221,29 @@ a{
 .textct{
     margin-top: auto;
     margin-bottom: auto;
+}
+.round1, .round2, .round3 {
+    position: absolute;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    filter: blur(200px);
+    z-index: -20;
+    }
+.round1{
+    background-color: #FF2D2D;
+    top: 600px;
+    right: 0;
+}
+.round2{
+    background-color: #FFB800;
+    top: 1200px;
+    left: 0;
+}
+.round3{
+    background-color: #64DAFF;
+    top: 2100px;
+    right: 0;
 }
 footer {
     background-color: black;
