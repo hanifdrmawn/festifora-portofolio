@@ -44,6 +44,12 @@
     header logo{
         margin: 24px 30px;
     }
+    .btn-nav{
+        display: contents;
+    }
+    header ul{
+        display: none;
+    }
     .bg1a{
         top: 1220px;
         right: 0;
