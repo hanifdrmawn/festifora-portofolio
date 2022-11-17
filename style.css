@@ -201,16 +201,15 @@ a{
     line-height: 19px;
     color: #2F2F2F;
     position: absolute;
+    transition: 0.3s;
 }
 .buttonbox1{
     background-color: white;
     left: 15%;
-    transition: 0.3s;
 }
 .buttonbox2{
     background-color: #FFD748;
     right: 15%;
-    transition: 0.3s;
 } 
 .button :hover{
     background-color: #3729D3;
