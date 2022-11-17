@@ -41,9 +41,6 @@
     }
 }
 @media all and (max-width: 670px) {
-    header logo{
-        margin: 24px 30px;
-    }
     .btn-nav{
         display: contents;
     }
