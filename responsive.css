@@ -56,12 +56,14 @@
         left: 0;
     }
     .skill{
+        margin: 40px 0;
         display: inline;
         text-align: center;
         padding: 0px;
     }
     .card-pictures img{
         height: 100px;
+        margin: 10px auto 10px auto;
     }
     .textSkill p{
         margin-left: 50px;
