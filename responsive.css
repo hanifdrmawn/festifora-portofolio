@@ -80,4 +80,28 @@
     footer ul li {
         margin-right: 20px;
     }
+    #btn-navbar,
+    header label {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    header ul li {
+        display: block;
+        margin: 20px 0;
+    }
+    header ul {
+        display: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #btn-navbar {
+        display: none;
+    }
+    #btn-navbar:checked ~ ul {
+        display: block;
+        background-color: black;
+        border-radius: 15px;
+    }
 }
