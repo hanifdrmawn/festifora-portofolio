@@ -10,7 +10,7 @@ body{
 header{
     height: 72px;
     width: 100%;
-    background-color: #887C14;
+    background-color: #7F669D;
     position:fixed;
     top: 0;
     z-index: 10;
@@ -209,11 +209,11 @@ a{
     left: 15%;
 }
 .buttonbox2{
-    background-color: #FFD748;
+    background-color: #e6c6f9;
     right: 15%;
 } 
 .button :hover{
-    background-color: #3729D3;
+    background-color: #432C7A;
     color: white;
 }
 .logoct{
